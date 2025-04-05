@@ -87,6 +87,12 @@ body {
     border-radius: 12px;
     transition: .3s;
     font-size: 0.89rem;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 button {
     color: inherit;
@@ -127,15 +133,42 @@ button {
     color: var(--color-text-white);
     z-index: 99;
     font-size: 0.89rem;
+    transition: .3s;
 }
 
+.header_white {
+    background-color: var(--color-bg-primary);
+    color: var(--color-dark);
+    border-radius: 0 0 60px 60px;
+}
+.header_white .logo_img{
+    content: url("../img/logo_2.svg");
+}
+.header_white .header__btn-wrapper,
+.header_white .header-nav {
+    background-color: var(--color-bg);
+}
+.header_white .header-phone-link {
+    color: var(--primary-color);
+}
+.visually__content {
+    padding-bottom: 63px;
+   transition: .3s;
+}
 .container_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-
+.visually__content.hidden{
+    padding: 0;
+    margin: 0;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
 .header__btn-wrapper,
 .header-nav {
     display: flex;
@@ -1110,6 +1143,7 @@ input[type='tel']:focus {
 .iti {
     width: 100%;
     max-width: 316px;
+    height: 46px;
     
 }
 .iti__country-list {
@@ -1251,7 +1285,41 @@ input[type='tel']:focus {
 .footer__politick-link {
     color: var(--primary-color);
 }
-
+.visually__content {
+    margin-top: 50px;
+    
+}
+.visually-item__title {
+    font-family: 'UNCAGE';
+    font-size: 1.33rem;
+    font-weight: 500;
+    height: 1em;
+}
+.visually-items {
+    display: flex;
+    gap: 70px;
+}
+.visually-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.visually-item__btns {
+    display: flex;
+    gap: 10px;
+    
+}
+.visually-btn {
+    background-color: var(--color-bg);
+    border: 1px solid #E5ECF9;
+    padding: 0;
+    width: 46px;
+    height: 46px;
+}
+.visually-btn__remove {
+    width: fit-content;
+    padding: 15px;
+}
 @media (max-width:1300px) {
     .header__btn-wrapper {
         height: 46px;

@@ -30,4 +30,47 @@ footerNavLink.forEach(elem => {
     elem.addEventListener('click', ()=> {
         elem.classList.toggle('open')
     })
+});
+
+
+const header = document.querySelector('.header')
+const pageVersionBtn = document.querySelector('.page_version');
+const visContent = document.querySelector('.visually__content');
+
+let isHeaderWhite = Boolean(header.classList.contains('header_white'));
+pageVersionBtn.addEventListener('click', ()=> {
+    if(!isHeaderWhite) {
+        header.classList.toggle('header_white');
+        
+    }
+    visContent.classList.toggle('hidden');
+});
+
+
+const visuallyBtnFontMin = document.querySelector('.visually-btn__font-minus');
+const visuallyBtnFontPlus = document.querySelector('.visually-btn__font-plus');
+let fontSize = 18;
+visuallyBtnFontMin.addEventListener('click', ()=> {
+    fontSize--
+    document.documentElement.style.setProperty('--font-size', `${fontSize}px`);
+});
+visuallyBtnFontPlus.addEventListener('click', ()=> {
+    fontSize++
+    document.documentElement.style.setProperty('--font-size', `${fontSize}px`);
+});
+
+const visuallyBtnColors = document.querySelectorAll('.visually-btn-color');
+
+visuallyBtnColors.forEach(btn =>{
+    btn.addEventListener('click', ()=> {
+        let background = btn.style.backgroundColor;
+        let color = btn.style.color;
+        document.documentElement.style.setProperty('--color-text-white', `${color}`);
+        document.documentElement.style.setProperty('--color-text', `${color}`);
+        document.documentElement.style.setProperty('--color-dark', `${color}`);
+
+        document.documentElement.style.setProperty('--color-bg', `${background}`);
+        document.documentElement.style.setProperty('--color-bg-primary', `${background}`);
+    })
+   
 })
