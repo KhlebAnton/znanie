@@ -42,7 +42,9 @@ pageVersionBtn.addEventListener('click', ()=> {
     if(!isHeaderWhite) {
         header.classList.toggle('header_white');
         
+        
     }
+    header.classList.toggle('bg_white');
     visContent.classList.toggle('hidden');
 });
 
@@ -68,9 +70,22 @@ visuallyBtnColors.forEach(btn =>{
         document.documentElement.style.setProperty('--color-text-white', `${color}`);
         document.documentElement.style.setProperty('--color-text', `${color}`);
         document.documentElement.style.setProperty('--color-dark', `${color}`);
+        document.documentElement.style.setProperty('--primary-color', `${color}`);
+        document.documentElement.style.setProperty('--color-text-light', `${color}`);
 
-        document.documentElement.style.setProperty('--color-bg', `${background}`);
+
+        
         document.documentElement.style.setProperty('--color-bg-primary', `${background}`);
+        document.documentElement.style.setProperty('--color-bg', `${background}`);
+        document.documentElement.style.setProperty('--primary-color-bg', `${background}`);
+       
+        
     })
    
+});
+
+const visuallyRemoveBtn = document.querySelector('.visually-btn__remove');
+
+visuallyRemoveBtn.addEventListener('click', ()=> {
+    document.documentElement.style = ''
 })
