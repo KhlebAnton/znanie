@@ -63,15 +63,15 @@ html {
     color: var(--color-text);
     font-weight: 500;
     font-family: "Manrope", Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 body {
     background-color: var(--color-bg-primary);
-    
 }
-body.overflow_hidden {
+.section_bg_logo,
+.section_feedback,
+.section_life-school{
     overflow-x: hidden;
 }
 .no-scroll {
@@ -1868,6 +1868,7 @@ ul.typography__list {
     grid-template-columns: 230px auto;
     gap: 30px;
     margin-top: 45px;
+    
 }
 .programs__filter {
     width: 100%;
@@ -2209,10 +2210,7 @@ ul.typography__list {
 }
 
 @media (max-width:830px) {
-    html {
-        overflow-x: hidden;
-    }
-
+    
     body {
         font-size: 0.89rem;
         
