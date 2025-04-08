@@ -69,7 +69,7 @@ html {
 body {
     background-color: var(--color-bg-primary);
 }
-.section_bg_logo,
+
 .section_feedback,
 .section_life-school{
     overflow-x: hidden;
@@ -2363,9 +2363,7 @@ ul.typography__list {
         display: none;
     }
 
-    .section_about_us::before {
-        max-width: none;
-    }
+   
 
     .specialization-items_grid_bottom,
     .specialization-items_grid_top {
