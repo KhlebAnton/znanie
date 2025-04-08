@@ -2109,6 +2109,29 @@ ul.typography__list {
 .close_img:hover {
     color: #bbb;
 }
+.page_404 {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.section_404 {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.logo-404 {
+    width: 100%;
+    position: relative;
+    max-width: 705px;
+    height: 278px;
+    background:url('../img/404.svg') 50% / contain no-repeat;
+}
+
 @media (max-width:1300px) {
     .header__btn-wrapper {
         min-height: 46px;
@@ -2897,5 +2920,14 @@ ul.typography__list {
     }
     .navigation_slide-img {
         height: 228px;
+    }
+    .logo-404 {
+        
+        height: 125px;
+       
+    }
+    .section_404 {
+        text-align: center;
+        gap: 20px;
     }
 }
