@@ -1853,11 +1853,15 @@ ul.typography__list {
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
 }
+.text-item-highlighted.text-document {
+    text-decoration: none;
+}
 .documents-items_grid .text-item-highlighted.text-document {
     flex-direction: column;
     height: fit-content;
     transition: .3s ease;
     width: 100%;
+    
 }
 .documents-items_grid .text-item-highlighted.text-document:hover {
     transform: translateY(-16px);
