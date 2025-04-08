@@ -2270,6 +2270,7 @@ ul.typography__list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    
 }
 .table_info .table_info__link {
     text-decoration: underline;
