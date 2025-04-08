@@ -46,6 +46,7 @@ pageVersionBtn.addEventListener('click', ()=> {
     }
     header.classList.toggle('bg_white');
     visContent.classList.toggle('hidden');
+    pageVersionBtn.classList.toggle('open')
 });
 
 
