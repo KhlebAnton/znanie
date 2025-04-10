@@ -2,7 +2,7 @@
 const intlTelInputConfig = {
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     preferredCountries: ['ru'],
-    separateDialCode: false,
+    separateDialCode: true,
     initialCountry: "ru",
     formatOnDisplay: true,
 };

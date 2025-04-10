@@ -1,6 +1,6 @@
 const swiperNavigation = new Swiper('.swiper__section_navigation', {
     slidesPerView: 'auto',
-    spaceBetween: 30,
+    spaceBetween: 10,
     loop: false,
     
     // Стрелки навигации
@@ -8,6 +8,13 @@ const swiperNavigation = new Swiper('.swiper__section_navigation', {
         nextEl: '.custom-button-next',
         prevEl: '.custom-button-prev',
     },
+    breakpoints: {
+       
+        830: {
+            spaceBetween: 30,
+        },
+    },
+    
 });
 
  // Получаем все изображения с классом zoomable-image
