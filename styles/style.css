@@ -2678,7 +2678,7 @@ ul.typography__list {
 
     .section_hero {
        width: 100%;
-      
+        aspect-ratio: 1 / 1;
         padding-bottom: 40px;
         display: flex;
         padding-top: 119px;
@@ -2686,8 +2686,9 @@ ul.typography__list {
     }
 
     .section_hero .container {
-
+        position: relative;
         flex-grow: 2;
+        justify-content: center;
     }
 
     .page-title {
@@ -2695,10 +2696,11 @@ ul.typography__list {
     }
 
     .swiper-pagination_hero {
-        position: static;
+        width: 100% !important;
         flex-grow: 2;
         display: flex;
-        align-items: end;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -3335,5 +3337,22 @@ display: none;
     .teachers_grid {
         grid-template-columns: 1fr ;
         gap: 10px;
+    }
+    .section_hero .container {
+        gap: 10px;
+    }
+    .section_hero {
+        padding-top: 30px;
+    }
+    .swiper-pagination_hero {
+        margin-bottom: 0;
+    }
+}
+@media (max-width:370px) {
+    .hero-info .page-title {
+        font-size: 1.18rem;
+    }
+    .hero-info  .hero-text {
+        font-size: 0.79rem;
     }
 }
