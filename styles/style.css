@@ -2460,6 +2460,9 @@ ul.typography__list {
     border-radius: 0  0 12px 0;
     border-bottom: 1px solid #E5ECF9;
 }
+.header_white .btn_about svg path {
+    stroke: var(--color-dark);
+}
 @media (max-width:1330px) {
     .header__btn-wrapper {
         height: 46px;
@@ -2482,7 +2485,9 @@ ul.typography__list {
 
 
     }
-
+    .header_white .btn_about svg path {
+        stroke: var(--primary-color);
+    }
     .stats-item {
         width: 100%;
     }
