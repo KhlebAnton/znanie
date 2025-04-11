@@ -1,5 +1,15 @@
 const btnMenuNav = document.querySelector('.btn_menu-nav');
 const headerNav = document.querySelector('.header-nav');
+const btnAbout = document.querySelector('.btn_about');
+const btnAboutMenu = document.querySelector('.btn_about__dropdown')
+btnAbout.addEventListener('click', ()=> {
+    btnAbout.classList.toggle('open');
+    btnAboutMenu.classList.toggle('open')
+    setTimeout(()=> {
+        btnAbout.classList.remove('open');
+        btnAboutMenu.classList.remove('open')
+    },2000)
+})
 
 btnMenuNav.addEventListener('click', ()=> {
     headerNav.classList.add('open');
