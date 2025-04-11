@@ -227,6 +227,9 @@ button {
 .header_white .header-phone-link {
     color: var(--primary-color);
 }
+.header_white .header-phone-link:hover {
+    color: var(--color-orang);
+}
 .header-phone-link:hover {
     color: var(--primary-color);
 }
@@ -704,7 +707,6 @@ button {
     border-radius: 16px;
     color: var(--primary-color);
     line-height: 130%;
-    word-spacing: 5px;
 
 }
 
@@ -1225,7 +1227,6 @@ background-color: var(--color-bg);
 }
 .education__text {
     font-size: 1rem;
-    word-spacing: 3px;
     color: var(--color-dark);
     line-height: 130%;
     font-weight: 500;
@@ -1356,7 +1357,6 @@ input[type='tel']:focus {
     font-size: 0.78rem;
     line-height: 110%;
     opacity: 0.3;
-    word-spacing: 3px;
     max-width: 290px;
     width: 100%;
 }
@@ -1647,7 +1647,6 @@ input[type='tel']:focus {
 
 .teachers__item-post {
     font-size: 1rem;
-    word-spacing: 3px;
     color: var(--color-dark);
 }
 
@@ -1671,17 +1670,20 @@ input[type='tel']:focus {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    line-height: 130%;
+   
+}
+.teachers__item-links a {
+    transition: .2s;
     color: var(--primary-color);
 }
-
-
+.teachers__item-links a:hover {
+    color: var(--color-orang);
+}
 
 .typography__wrapper p,
 .typography__text p {
     font-size: 1rem;
     line-height: 130%;
-    word-spacing: 3px;
 }
 
 .section__typography__top {
@@ -1893,13 +1895,11 @@ ul.typography__list {
 .section__typography__content .text_middle {
     font-size: 0.89rem;
     line-height: 110%;
-    word-spacing: normal;
 }
 
 .section__typography__content .text_small {
     font-size: 0.78rem;
     line-height: 110%;
-    word-spacing: normal;
 }
 
 .section_documents .section_title_h2 {
@@ -2745,7 +2745,7 @@ ul.typography__list {
     .text-item-highlighted {
         font-size: 0.778rem;
         padding: 10px 16px;
-        word-spacing: 3px;
+
     }
 
     .about__right-content {
@@ -3036,7 +3036,7 @@ ul.typography__list {
     .section__typography p {
         font-size: 0.89rem;
         line-height: 130%;
-        word-spacing: normal;
+
     }
 
     .main_padding-top {
