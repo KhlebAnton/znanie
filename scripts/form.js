@@ -2,7 +2,7 @@
 const intlTelInputConfig = {
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     preferredCountries: ['ru'],
-    separateDialCode: true,
+    separateDialCode: false,
     initialCountry: "ru",
     formatOnDisplay: true,
 };
@@ -13,7 +13,7 @@ const phoneInput = form.querySelector('input[type="tel"]');
 
 // Инициализация intlTelInput
 const iti = intlTelInput(phoneInput, intlTelInputConfig);
-phoneInput.value = `+${iti.getSelectedCountryData().dialCode}`;
+// phoneInput.value = `+${iti.getSelectedCountryData().dialCode}`;
 
 // Функция для обработки отправки формы
 function handleFormSubmit(form, itiInstance) {
