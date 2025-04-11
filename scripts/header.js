@@ -3,6 +3,15 @@ const headerNav = document.querySelector('.header-nav');
 
 btnMenuNav.addEventListener('click', ()=> {
     headerNav.classList.add('open');
+    if(!isHeaderWhite) {
+        header.classList.remove('header_white');
+        header.classList.remove('bg_white');
+        
+    } else {
+        header.classList.remove('bg_white');
+    }
+    visContent.classList.add('hidden');
+    pageVersionBtn.classList.remove('open')
     setTimeout(()=> {
         headerNav.classList.remove('open');
     },2000)
