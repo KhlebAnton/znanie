@@ -90,7 +90,7 @@ body {
 
 .bread_crumbs {
     margin-bottom: 40px;
-    font-size: 0.89rem;
+    font-size: 16px;
 }
 
 .bread_crumbs a {
@@ -103,7 +103,7 @@ body {
 }
 
 .section_title_h2 {
-    font-size: 2.67rem;
+    font-size: 48px;
     font-family: 'UNCAGE';
     font-weight: 600;
     line-height: 110%;
@@ -128,7 +128,7 @@ body {
     font-weight: 500;
     line-height: 130%;
     border-radius: 24px;
-    font-size: 1rem;
+    font-size: 18px;
     padding: 12px 16px;
     color: var(--color-text-white);
     margin-bottom: 5px;
@@ -145,7 +145,7 @@ body {
     width: fit-content;
     border-radius: 12px;
     transition: .3s;
-    font-size: 0.89rem;
+    font-size: 16px;
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -200,7 +200,7 @@ button {
     width: 100%;
     color: var(--color-text-white);
     z-index: 99;
-    font-size: 0.89rem;
+    font-size: 16px;
     transition: .2s;
 }
 
@@ -354,7 +354,7 @@ button {
 
 .header-phone-link {
     font-weight: 800;
-    font-size: 1.11rem;
+    font-size: 20px;
 }
 
 .btn_menu-nav {
@@ -603,7 +603,7 @@ button {
 
 .page-title {
     font-family: 'UNCAGE';
-    font-size: 3.55rem;
+    font-size: 64px;
     font-weight: 500;
     line-height: 110%;
     text-transform: uppercase;
@@ -615,7 +615,7 @@ button {
 }
 
 .hero-text {
-    font-size: 1.11rem;
+    font-size: 20px;
     max-width: 630px;
     line-height: 110%;
     color: var(--color-text-light);
@@ -677,14 +677,14 @@ button {
 
 .section_title {
     font-weight: 600;
-    font-size: 2.67rem;
+    font-size: 48px;
     color: var(--color-dark);
     font-family: "UNCAGE";
     line-height: 110%;
 }
 
 .section_about-info {
-    font-size: 1rem;
+    font-size:18px;
     max-width: 880px;
     margin-top: 10px;
     margin-bottom:10px;
@@ -737,13 +737,13 @@ button {
 .stats-item__title {
     font-family: "UNCAGE";
     font-weight: 600;
-    font-size: 7.1rem;
+    font-size: 128px;
     line-height: 110px;
     color: var(--color-orang);
 }
 
 .stats-item__info {
-    font-size: 1.33rem;
+    font-size: 24px;
     line-height: 130%;
     font-weight: 500;
     font-family: "UNCAGE";
@@ -788,7 +788,7 @@ button {
     max-width: 330px;
     color: var(--color-dark);
     transition: .3s;
-    font-size: 1.33rem;
+    font-size: 24px;
 }
 
 .specialization-items_grid_top .specialization-item:first-child {
@@ -814,7 +814,7 @@ button {
     gap: 6px;
     transition: .3s;
     color: var(--primary-color);
-    font-size: 0.89rem;
+    font-size: 16px;
 }
 
 .specialization-item:hover .specialization-item__icon {
@@ -847,7 +847,7 @@ button {
     cursor: pointer;
     text-align: center;
     margin-top: 31px;
-    font-size: 0.89rem;
+    font-size: 16px;
     color: var(--primary-color);
 }
 
@@ -969,7 +969,7 @@ button {
 
 .life-news__item__info {
     color: var(--color-text-white);
-    font-size: 1rem;
+    font-size:18px;
     line-height: 130%;
 
     font-weight: 500;
@@ -1063,7 +1063,7 @@ background-color: var(--color-bg);
 }
 .popup_table__text {
     margin-top: 6px;
-    font-size: 1.11rem;
+    font-size: 20px;
     color: #DDDDDF;
 }
 .popup_table__text span {
@@ -1073,7 +1073,7 @@ background-color: var(--color-bg);
     padding: 12px 16px;
     border-radius: 24px;
     background-color: var(--color-bg-btn);
-    font-size: 1rem;
+    font-size:18px;
     letter-spacing: 0.3px;
 }
 .section_feedback {
@@ -1144,11 +1144,11 @@ background-color: var(--color-bg);
 
 .feedback-item__name {
     color: var(--primary-color);
-    font-size: 1.11rem;
+    font-size: 20px;
 }
 
 .feedback-item__desc {
-    font-size: 0.89rem;
+    font-size: 16px;
     color: var(--color-text);
 }
 
@@ -1212,7 +1212,7 @@ background-color: var(--color-bg);
     font-family: 'UNCAGE';
     font-weight: 500;
     margin-bottom: 10px;
-    font-size: 1.33rem;
+    font-size: 24px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -1226,7 +1226,7 @@ background-color: var(--color-bg);
     border-top: 4px solid #ffffff;
 }
 .education__text {
-    font-size: 1rem;
+    font-size:18px;
     color: var(--color-dark);
     line-height: 130%;
     font-weight: 500;
@@ -1264,7 +1264,7 @@ input[type='tel'] {
     background-color: inherit;
 
     border-radius: 10px;
-    font-size: 0.89rem;
+    font-size: 16px;
     color: var(--color-text-white);
     font-family: 'Manrope';
 }
@@ -1354,7 +1354,7 @@ input[type='tel']:focus {
 }
 
 .form__politics_link {
-    font-size: 0.78rem;
+    font-size: 14px;
     line-height: 110%;
     opacity: 0.3;
     max-width: 290px;
@@ -1366,7 +1366,7 @@ input[type='tel']:focus {
 }
 
 .form__text {
-    font-size: 1rem;
+    font-size:18px;
     margin-top: 10px;
 
 }
@@ -1427,13 +1427,13 @@ input[type='tel']:focus {
 }
 
 .footer__nav-list__title {
-    font-size: 1.11rem;
+    font-size: 20px;
     color: var(--color-dark);
 }
 
 .footer__nav-list li a {
     color: var(--color-text);
-    font-size: 0.89rem;
+    font-size: 16px;
 }
 
 .footer__contacts {
@@ -1450,12 +1450,12 @@ input[type='tel']:focus {
 }
 
 .footer__contacts-item__title {
-    font-size: 0.78rem;
+    font-size: 14px;
     opacity: .4;
 }
 
 .footer__contacts-item__text {
-    font-size: 0.89rem;
+    font-size: 16px;
 }
 
 .footer__bottom {
@@ -1465,7 +1465,7 @@ input[type='tel']:focus {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    font-size: 0.78rem;
+    font-size: 14px;
 }
 .footer a {
     transition: .2s;
@@ -1498,7 +1498,7 @@ input[type='tel']:focus {
 
 .visually-item__title {
     font-family: 'UNCAGE';
-    font-size: 1.33rem;
+    font-size: 24px;
     font-weight: 500;
     min-height: 1em;
 }
@@ -1639,14 +1639,14 @@ input[type='tel']:focus {
 
 .teachers__item-name {
     font-family: 'UNCAGE';
-    font-size: 1.33rem;
+    font-size: 24px;
     line-height: 100%;
     margin-bottom: 6px;
     font-weight: 500;
 }
 
 .teachers__item-post {
-    font-size: 1rem;
+    font-size:18px;
     color: var(--color-dark);
 }
 
@@ -1682,7 +1682,7 @@ input[type='tel']:focus {
 
 .typography__wrapper p,
 .typography__text p {
-    font-size: 1rem;
+    font-size:18px;
     line-height: 130%;
 }
 
@@ -1728,7 +1728,7 @@ input[type='tel']:focus {
 .typography_title_h5 {
     font-family: 'UNCAGE';
     font-weight: 500;
-    font-size: 1.33rem;
+    font-size: 24px;
     color: #1A1919;
 }
 
@@ -1768,13 +1768,13 @@ input[type='tel']:focus {
 }
 
 .typography__stats-item__title {
-    font-size: 1rem;
+    font-size:18px;
     line-height: 130%;
     margin-bottom: 10px;
 }
 
 .typography__stats-item__info {
-    font-size: 1.11rem;
+    font-size: 20px;
     color: var(--color-orang);
     font-weight: 500;
 }
@@ -1859,13 +1859,13 @@ input[type='tel']:focus {
 }
 .typography_title_h3 {
     font-weight: 500;
-    font-size: 2.22rem;
+    font-size: 40px;
     font-family: 'UNCAGE';
     color: var(--color-dark);
 }
 
 .typography_title_h4 {
-    font-size: 1.78rem;
+    font-size: 32px;
     font-weight: 500;
     font-family: 'UNCAGE';
     color: var(--color-dark);
@@ -1893,12 +1893,12 @@ ul.typography__list {
 }
 
 .section__typography__content .text_middle {
-    font-size: 0.89rem;
+    font-size: 16px;
     line-height: 110%;
 }
 
 .section__typography__content .text_small {
-    font-size: 0.78rem;
+    font-size: 14px;
     line-height: 110%;
 }
 
@@ -1974,7 +1974,7 @@ ul.typography__list {
 }
 
 .programs__filter-item__title {
-    font-size: 1.11rem;
+    font-size: 20px;
     line-height: 110%;
     color: var(--color-dark);
     margin-bottom: 10px;
@@ -1995,7 +1995,7 @@ ul.typography__list {
     background-color: var(--color-bg);
     border: 1px solid #E5ECF9;
     color: var(--primary-color);
-    font-size: 0.89rem;
+    font-size: 16px;
     cursor: pointer;
     justify-content: space-between;
 }
@@ -2040,7 +2040,7 @@ ul.typography__list {
 }
 
 .programs__item-title {
-    font-size: 1.33rem;
+    font-size: 24px;
     color: var(--primary-color);
     font-family: 'UNCAGE';
     font-weight: 500;
@@ -2052,19 +2052,19 @@ ul.typography__list {
     padding: 12px 16px;
     border: 1px solid #E5ECF9;
     border-radius: 24px;
-    font-size: 1rem;
+    font-size:18px;
     line-height: 130%;
     color: var(--color-dark);
 }
 
 .program-stats__item-title {
-    font-size: 1rem;
+    font-size:18px;
     line-height: 130%;
     color: var(--color-dark);
 }
 
 .program-stats__item-info {
-    font-size: 1.11rem;
+    font-size: 20px;
     line-height: 110%;
     color: var(--color-orang);
 }
@@ -2142,7 +2142,7 @@ ul.typography__list {
 
 .contacts-info__item-links {
     color: var(--primary-color);
-    font-size: 1.11rem;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -2270,7 +2270,7 @@ ul.typography__list {
     border: 1px solid #E5ECF9;
     
     padding: 10px 12px;
-    font-size: 0.78rem;
+    font-size: 14px;
     text-align: start;
     vertical-align: top;   
   text-align: left;      
@@ -2284,7 +2284,7 @@ ul.typography__list {
     top: 0;
     left: 0;
     padding: 10px;
-    font-size: 0.78rem;
+    font-size: 14px;
     width: 196px;
     background-color: var(--color-bg-primary);
     border-radius: 12px;
@@ -2313,7 +2313,7 @@ ul.typography__list {
 .table_info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap:18px;
     
 }
 .table_info .table_info__link {
@@ -2330,7 +2330,7 @@ ul.typography__list {
     padding: 12px 20px;
     position: relative;
     font-weight: 500;
-    font-size: 0.89rem;
+    font-size: 16px;
     
 }
 .responsive-table th:first-child {
@@ -2364,7 +2364,7 @@ ul.typography__list {
     background-color: var(--color-bg);
     color: #404145;
     border-bottom: 0;
-    font-size: 0.78rem;
+    font-size: 14px;
     position: relative;
 }
 .table_card .table_title .table_title__hint-icon {
@@ -2388,7 +2388,7 @@ ul.typography__list {
     border: 1px solid #E5ECF9;
     border-left: 0;
     border-bottom: 0;
-    font-size: 0.78rem;
+    font-size: 14px;
 }
 .table_card .table_info__first {
     border-radius: 0 12px 0 0;
@@ -2609,7 +2609,7 @@ ul.typography__list {
 @media (max-width:830px) {
 
     body {
-        font-size: 0.89rem;
+        font-size: 16px;
 
     }
 
@@ -2692,7 +2692,7 @@ ul.typography__list {
     }
 
     .page-title {
-        font-size: 1.78rem;
+        font-size: 32px;
     }
 
     .swiper-pagination_hero {
@@ -2706,13 +2706,13 @@ ul.typography__list {
     }
 
     .hero-text {
-        font-size: 0.89rem;
+        font-size: 16px;
         line-height: 120%;
         max-width: 300px;
     }
 
     .section_title {
-        font-size: 1.33rem;
+        font-size: 24px;
     }
 
     .section_about_us {
@@ -2724,7 +2724,7 @@ ul.typography__list {
     }
 
     .section_about-info {
-        font-size: 0.89rem;
+        font-size: 16px;
         line-height: 120%;
         margin-bottom: 11px;
     }
@@ -2734,16 +2734,16 @@ ul.typography__list {
     }
 
     .stats-item__title {
-        font-size: 5.33rem;
+        font-size: 96px;
     }
 
     .stats-item__info {
-        font-size: 1.11rem;
+        font-size: 20px;
 
     }
 
     .text-item-highlighted {
-        font-size: 0.778rem;
+        font-size: 14px;
         padding: 10px 16px;
 
     }
@@ -2782,7 +2782,7 @@ ul.typography__list {
     }
 
     .specialization-item__title {
-        font-size: 1.11rem;
+        font-size: 20px;
     }
 
     .btn_more_scpec {
@@ -2830,7 +2830,7 @@ ul.typography__list {
     }
 
     .life-news__item__info {
-        font-size: 0.78rem;
+        font-size: 14px;
         line-height: 110%;
     }
 
@@ -2851,7 +2851,7 @@ ul.typography__list {
     }
 
     .feedback-item__desc {
-        font-size: 0.78rem;
+        font-size: 14px;
     }
 
     .education__grid {
@@ -2965,7 +2965,7 @@ ul.typography__list {
         display: flex;
         height: 10px;
         align-items: center;
-        font-size: 0.89rem;
+        font-size: 16px;
     }
 
     .footer__nav-list__title::after {
@@ -3000,7 +3000,7 @@ ul.typography__list {
     }
 
     .visually__content {
-        font-size: 1.11rem;
+        font-size: 20px;
     }
 
     .teachers_grid {
@@ -3034,7 +3034,7 @@ ul.typography__list {
     }
 
     .section__typography p {
-        font-size: 0.89rem;
+        font-size: 16px;
         line-height: 130%;
 
     }
@@ -3045,11 +3045,11 @@ ul.typography__list {
 
     .bread_crumbs {
         margin-bottom: 10px;
-        font-size: 0.79rem;
+        font-size: 14px;
     }
 
     .section_title_h2 {
-        font-size: 1.33rem;
+        font-size: 24px;
     }
 
     .section_form {
@@ -3057,7 +3057,7 @@ ul.typography__list {
     }
 
     .typography_title_h5 {
-        font-size: 1.11rem;
+        font-size: 18px;
     }
 
     .typography__text {
@@ -3071,7 +3071,7 @@ ul.typography__list {
     }
 
     .section_title__hint {
-        font-size: 0.78rem;
+        font-size: 14px;
         padding: 10px 12px;
     }
 
@@ -3085,12 +3085,12 @@ ul.typography__list {
     }
 
     .typography__stats-item__title {
-        font-size: 0.78rem;
+        font-size: 14px;
         margin-bottom: 4px;
     }
 
     .typography__stats-item__info {
-        font-size: 0.89rem;
+        font-size: 16px;
     }
 
     .btn_download {
@@ -3128,11 +3128,11 @@ ul.typography__list {
     }
 
     .typography_title_h3 {
-        font-size: 1.25rem;
+        font-size: 22px;
     }
 
     .typography_title_h4 {
-        font-size: 1.2rem;
+        font-size: 20px;
     }
 
     .documents-items_grid {
@@ -3200,7 +3200,7 @@ ul.typography__list {
     }
 
     .programs__item-title {
-        font-size: 1.11rem;
+        font-size: 20px;
     }
 
     .programs__item {
@@ -3210,7 +3210,7 @@ ul.typography__list {
     }
 
     .programs__item-desc {
-        font-size: 0.78rem;
+        font-size: 14px;
     }
 
     .programs__item_info {
@@ -3219,11 +3219,11 @@ ul.typography__list {
     }
 
     .program-stats__item-title {
-        font-size: 0.78rem;
+        font-size: 14px;
     }
 
     .program-stats__item-info {
-        font-size: 0.89rem;
+        font-size: 16px;
     }
 
     .program-stats__item {
@@ -3241,7 +3241,7 @@ ul.typography__list {
     }
 
     .contacts-info__item-links {
-        font-size: 0.89rem;
+        font-size: 16px;
     }
 
     .contacts-info__container {
@@ -3263,7 +3263,7 @@ ul.typography__list {
     }
     .popup_table__text {
         margin-top: 6px;
-        font-size: 0.89rem;
+        font-size: 16px;
         color: #DDDDDF;
     }
     .popup_table__content {
@@ -3274,7 +3274,7 @@ ul.typography__list {
         margin-top: 20px;
     }
     .popup_table__item {
-        font-size: 0.78rem;
+        font-size: 14px;
     }
     .section_feedback .swiper-slide ,
     .swiper__section_life-school .swiper-slide {
@@ -3282,7 +3282,7 @@ ul.typography__list {
         
     }
     .footer__contacts-item__text {
-        font-size: 0.78rem;
+        font-size: 14px;
     }
     .section_documents .section_title_h2 {
         margin-bottom: 10px;
@@ -3350,9 +3350,9 @@ display: none;
 }
 @media (max-width:370px) {
     .hero-info .page-title {
-        font-size: 1.18rem;
+        font-size: 21px;
     }
     .hero-info  .hero-text {
-        font-size: 0.79rem;
+        font-size: 14px;
     }
 }
