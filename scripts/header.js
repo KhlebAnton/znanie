@@ -2,15 +2,58 @@ const btnMenuNav = document.querySelector('.btn_menu-nav');
 const headerNav = document.querySelector('.header-nav');
 const btnAbout = document.querySelector('.btn_about');
 const btnAboutMenu = document.querySelector('.btn_about__dropdown')
-btnAbout.addEventListener('click', ()=> {
-    btnAbout.classList.toggle('open');
-    btnAboutMenu.classList.toggle('open')
-    setTimeout(()=> {
-        btnAbout.classList.remove('open');
-        btnAboutMenu.classList.remove('open')
-    },2000)
-})
 
+let closeTimeout;
+function scheduleClose() {
+    clearTimeout(closeTimeout); 
+    closeTimeout = setTimeout(() => {
+        btnAbout.classList.remove('open');
+        btnAboutMenu.classList.remove('open');
+    }, 2000);
+}
+
+
+function cancelClose() {
+    clearTimeout(closeTimeout);
+}
+
+
+// btnAbout.addEventListener('click', () => {
+//     btnAbout.classList.toggle('open');
+//     btnAboutMenu.classList.toggle('open');
+    
+//     // Если меню открыто, запланируем его закрытие
+//     if (btnAbout.classList.contains('open')) {
+//         scheduleClose();
+//     } else {
+//         cancelClose();
+//     }
+// });
+
+
+btnAbout.addEventListener('mouseenter', () => {
+    btnAbout.classList.add('open');
+    btnAboutMenu.classList.add('open');
+    cancelClose(); 
+});
+
+btnAbout.addEventListener('mouseleave', () => {
+    scheduleClose(); 
+});
+
+document.addEventListener('click', (e) => {
+    if (!btnAbout.contains(e.target) && !btnAboutMenu.contains(e.target)) {
+        btnAbout.classList.remove('open');
+        btnAboutMenu.classList.remove('open');
+        cancelClose();
+    }
+});
+
+btnAbout.addEventListener('touchstart', () => {
+    btnAbout.classList.add('open');
+    btnAboutMenu.classList.add('open');
+    cancelClose();
+});
 btnMenuNav.addEventListener('click', ()=> {
     headerNav.classList.add('open');
     if(!isHeaderWhite) {
