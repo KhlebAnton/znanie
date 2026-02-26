@@ -606,7 +606,7 @@ pointer-events: all;
     left: 0;
     width: 10%;
     cursor: url('../img/slide_left.svg'), auto;
-
+opacity: 0;
 
 }
 
@@ -616,6 +616,7 @@ pointer-events: all;
     right: 0;
     width: 8%;
     cursor: url('../img/slide_right.svg'), auto;
+    opacity: 0;
 }
 
 .swiper-container_img .swiper-button-next::after,
